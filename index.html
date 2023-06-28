@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <div class="data">
+    <form class="bank" id="bank">
+      <input type="text" placeholder="Название банка">
+      <input type="text" placeholder="Тип платёжной системы">
+      <input type="text" oninput="this.value = checkOnlyNumber(this.value)" maxlength="16" size="16" placeholder="Номер карты">
+      <input type="text" maxlength="14" placeholder="Имя держателя">
+      <input type="text" oninput="this.value = checkOnlyNumber(this.value)" maxlength="4" size="4" placeholder="Месяц и год окончания">
+      <button type="submit">Отправить</button>
+  	</form>
+    <div class="mini">
+      <div id="logo" class="Ml(5) Mt(5) back_logo"></div>
+      <div id="number" class="Ta(c) Mt(10)">
+			0000_0000_0000_0000
+      </div>
+      <div class="Mt(10) D(in-b)">
+        <div id="cardholder" class="Ml(5) D(in-b) p(r) t(50) Tr(y-50) Fs(14)">
+			CARDHOLDER
+      	</div>
+      	<div id="date" class="Ml(10) D(in-b) p(r) t(50) Tr(y-50) Fs(14)">
+        	00/00
+      	</div>
+      	<div id="system" class="Ml(30) back_logo D(in-b)"></div>
+      </div>
+    </div>
+      
+  </div>
+  
+  <table id="table" class="margin-top(30)">
+    <tr>
+		<th>Банк</th>
+		<th>Тип платёжной системы</th>
+		<th>Номер карты</th>
+		<th>Имя держателя</th>
+		<th>Месяц и год окончания</th>
+	</tr>
+  </table>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

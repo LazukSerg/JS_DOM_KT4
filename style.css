@@ -1,0 +1,86 @@
+body {
+  margin: 20px;
+}
+
+.bank {
+	display: flex;
+  	flex-direction: column;
+  	width: 40%;
+}
+
+.mini {
+  background-color: LightGray;
+  margin: 10px;
+  width: 250px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.data {
+  display: flex;
+}
+
+.margin-top\(30\) {
+  margin-top: 30px;
+}
+
+table, tr, th, td {
+  border: 1px solid;
+  border-collapse: collapse
+}
+
+.Ml\(5\) {
+  margin-left: 5px;
+}
+
+.Mt\(5\) {
+  margin-top: 5px;
+}
+
+.Mt\(10\) {
+  margin-top: 10px;
+}
+
+.Ta\(c\) {
+  text-align: center;
+}
+
+.Ml\(30\){
+    margin-left: 30px;
+}
+
+.Ml\(10\){
+    margin-left: 10px;
+}
+
+.Ml\(5\){
+    margin-left: 5px;
+}
+
+.D\(in-b\) {
+	display: inline-block;
+}
+
+.p\(r\) {
+	position: relative;
+}
+
+.t\(50\) {
+	top: 50%;
+}
+
+.Tr\(y-50\) {
+	transform: translateY(-50%);
+}
+
+.back_logo {
+	width: 40px;
+	height: 32px;
+	background-size: 40px 32px;
+	background-repeat: no-repeat;
+}
+
+.Fs\(14\) {
+	font-size: 14px;
+}
+        
